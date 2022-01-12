@@ -988,7 +988,7 @@ def register(bl_info):
 
 	try:
 		Tracker.initialize(
-			appurl = "https://mcprep-1aa04.firebaseio.com/",
+			appurl = "https://127.0.0.1/",
 			version = str(bl_info["version"]),
 			language = language,
 			blender_version = bversion)

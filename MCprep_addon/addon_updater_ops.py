@@ -1372,7 +1372,7 @@ def register(bl_info):
 	updater.engine = "Github"
 	updater.user = "theduckcow"
 	updater.repo = "mcprep"
-	updater.website = "https://theduckcow.com/dev/blender/mcprep-download/"
+	updater.website = "https://127.0.0.1/"
 	updater.subfolder_path = "MCprep_addon/"
 	updater.current_version = bl_info["version"]
 	updater.backup_current = True
